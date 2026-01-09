@@ -60,6 +60,6 @@
 .design-color{
     color: var(--clr-orange);
 }
-:is(p,h1,h2).align-center {
+:is(p,h1,h2,h3).align-center {
     text-align: center;
 }

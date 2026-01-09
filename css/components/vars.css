@@ -11,8 +11,8 @@
     --clr-grey-light: #666666;
     --clr-grey-dark: #222222 ;
 
-    --clr-wite: #FEFCFB ;
-    --clr-wite-soft: #F7F8FC;
+    --clr-white: #FEFCFB ;
+    --clr-white-soft: #F7F8FC;
 
     /* GAPS*/
     --gap-xs: 4px;
@@ -24,4 +24,7 @@
     /* WIDTH */
     --width-sm: 675px;
     --width-full: 100%;
+
+    
+
 }

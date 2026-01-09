@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.heading-sm,
+.heading-lg {
+    font-family: "Volkhov", serif;
+    font-weight: bold;
+}
+
+.paragraph-lg,
+.paragraph-md,
+.paragraph-sm,
+.title-sm{
+    font-family: "Volkhov", serif;
+    font-weight: normal;
+}
+
+.content,
+.title-lg{
+    font-family: "Volkhov", serif;
+    font-weight: medium;
+}
+.heading-sm{
+    font-size: 48px ;
+    line-height: 54px;
+}
+
+.heading-lg{
+    font-size: 64px;
+    line-height: 70px;
+    max-width: 520px;
+}
+
+.paragraph-sm{
+    font-size: 16px;
+    line-height: 24px;
+}
+.paragraph-md{
+    font-size: 18px;
+    line-height: 32px;
+}
+.paragraph-lg{
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 500px;
+}
+
+.title-lg{
+    font-size: 24px;
+    line-height: 26px;
+}
+.title-sm{
+    font-size: 16px;
+    line-height: 24;
+}
+
+.content{
+    font-size: 16px;
+    line-height: 32px;
+}
+.design-color{
+    color: var(--clr-orange);
+}
+:is(p,h1,h2).align-center {
+    text-align: center;
+}

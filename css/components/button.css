@@ -1,0 +1,39 @@
+.btn{
+    --btn-idle-fill: var(--clr-orange);
+    --btn-active-fill:var(--clr-blue);
+    --btn-label-color: white;
+    --clr:var(--btn-idle-fill);
+
+    /*Reset*/
+    font-family: "Volkhov", serif;
+    font-size: 18px;
+    line-height: 32px;
+    background: none;
+    border: none;
+
+    /*Style*/
+    font-weight: 500;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    flex: none;
+}
+
+.btn.outlined {
+    border-color: var(--clr);
+    color: var(--clr);
+}
+
+.btn.solid{
+    background: var(--clr);
+    color: var(--btn-label-color);
+}
+
+.btn:hover{
+    --clr: var(--btn-active-fill);
+
+}
+
+.btn:active{
+    transform: translateY(1px) ;
+}

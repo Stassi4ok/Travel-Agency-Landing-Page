@@ -12,6 +12,7 @@
     gap: var(--gap-xl);
     max-width: var(--width-sm);  
 }
-
-
+.soft-white{
+    background-color: var(--clr-white-soft);
+}
 

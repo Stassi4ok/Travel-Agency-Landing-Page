@@ -1,12 +1,27 @@
 
 
 .carousel-item-block{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    
     gap: var(--gap-lg);
 }
 
 .carousel-item-block article img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    
+}
+
+.carousel-item-block-best-vacation{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: var(--gap-lg);
+}
+
+.carousel-item-block-best-vacation article img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -19,9 +34,6 @@
     border-radius: 10px;
     display: grid;
     background-color: var(--clr-white);
-    
-    
-
 }
 .exclusive-deal-card .card-body .card-price {
     display: flex;
@@ -53,6 +65,17 @@
     gap: var(--gap-md);
     justify-content: center;
 }
-
+.carousel-button-right{
+    margin: var(--gap-lg);
+    display: flex;
+    gap: var(--gap-md);
+    justify-content: flex-end;
+}
+.carousel-button-left{
+    margin: var(--gap-lg);
+    display: flex;
+    gap: var(--gap-md);
+    
+}
 
 

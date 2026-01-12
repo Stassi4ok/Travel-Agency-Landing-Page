@@ -32,6 +32,7 @@
 
 .btn:hover{
     --clr: var(--btn-active-fill);
+    
 
 }
 
@@ -41,13 +42,11 @@
 
 .btn.prev{
     border: 2px solid var(--clr-grey-soft);
-    
-   
 }
-.btn.next{
-    
-    
+.btn.prev:hover{
+    border-color: var(--btn-active-fill);
 }
+
 .btn.next,
 .btn.prev{
     border-radius: 50%;

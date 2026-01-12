@@ -1,5 +1,5 @@
 body{
-    background-color: #FEFCFB;
+    background-color: var(--clr-white);
     color: var(--clr-grey-dark); 
 }
 ul{
@@ -58,4 +58,54 @@ a{
     display: flex;
     
     gap: var(--gap-lg)
+}
+
+.subscribe{
+    background-color: var(--clr-orange);
+    border-radius: 10px;
+
+}
+.subscribe h2{
+    color: white;
+}
+
+.subscribe-input{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subscribe-input input{
+    border: none;
+    height: 40px;
+    width: 80%;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+
+.subscribe-input button{
+    font-family: "Poppins", sans-serif;
+}
+
+.social .icon{
+    width: 60px;
+    height: 60px;
+}
+
+.footer-content{
+    background-color: var(--clr-white-soft);
+    padding: var(--gap-lg);
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.footer-content .content{
+    font-family: "Poppins", sans-serif;
 }

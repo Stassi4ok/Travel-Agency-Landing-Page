@@ -63,3 +63,8 @@
 :is(p,h1,h2,h3).align-center {
     text-align: center;
 }
+
+.center-text{
+    text-align: center;
+    width: 500px;
+}

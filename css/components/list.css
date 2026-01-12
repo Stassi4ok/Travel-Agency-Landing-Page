@@ -21,7 +21,7 @@
 }
 
 .to-do-card{
-    background-color: white ;
+    background-color: rgb(255, 255, 255) ;
     padding: var(--gap-lg) ;
     border-radius: 10px;
     max-width: 400px;

@@ -1,0 +1,61 @@
+body{
+    background-color: #FEFCFB;
+    color: var(--clr-grey-dark); 
+}
+ul{
+    padding-left: var(--gap-md);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Volkhov", serif;
+    font-weight: medium;
+}
+
+
+
+.cover{
+    height: 720px;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+.illustration{
+    width: 100%;
+    height: 720px;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.hero{
+   
+    
+    padding-top: calc(var(--gap-xl) + var(--gap-xl));
+}
+
+.hero p{
+    max-width: 500px;
+}
+
+.hero h1{
+    max-width: 500px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--gap-lg);
+    
+}
+.logo{
+    font-weight: 700;
+}
+
+.main-nav{
+    display: flex;
+    
+    gap: var(--gap-lg)
+}

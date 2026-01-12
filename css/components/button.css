@@ -17,6 +17,7 @@
     border-radius: 5px;
     border: 1px solid transparent;
     flex: none;
+    cursor: pointer;
 }
 
 .btn.outlined {
@@ -36,4 +37,36 @@
 
 .btn:active{
     transform: translateY(1px) ;
+}
+
+.btn.prev{
+    border: 2px solid var(--clr-grey-soft);
+    
+   
+}
+.btn.next{
+    
+    
+}
+.btn.next,
+.btn.prev{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.next svg{
+    display: block;
+}
+
+.prev-arrow,
+.next-arrow{
+    width: 17px;
+    height: 15px;
+    padding: 0px;
 }
